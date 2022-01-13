@@ -76,7 +76,7 @@ p {
 .cross-stitch {
   padding: 200px;
 }
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 44px;
     line-height: 2;
