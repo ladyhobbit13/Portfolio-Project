@@ -97,6 +97,26 @@ p {
   line-height: 30px;
   color: rgba(39, 33, 66, 0.7);
 }
+.work-section {
+  padding: 160px 20px;
+}
+.work-section h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+.work-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 36px;
+}
+.work-section p {
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(39, 33, 66, 0.7);
+}
+.work-section-content {
+  text-align: center;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -115,5 +135,8 @@ p {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+  .work-section h1 {
+    font-size: 36px;
   }
 }
