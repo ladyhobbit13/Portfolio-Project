@@ -76,10 +76,31 @@ p {
 .cross-stitch {
   padding: 200px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+.about-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  line-height: 27px;
+  color: #272142;
+}
+.about-section p {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(39, 33, 66, 0.7);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 56px;
   }
   h2 {
     font-size: 44px;
@@ -90,5 +111,9 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
