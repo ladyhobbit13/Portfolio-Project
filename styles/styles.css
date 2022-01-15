@@ -76,45 +76,39 @@ p {
 .cross-stitch {
   padding: 200px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 85px;
 }
-.about-section h2 {
+.content-container h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
   line-height: 27px;
   color: #272142;
 }
-.about-section p {
+.content-container p {
   font-size: 16px;
   line-height: 30px;
   color: rgba(39, 33, 66, 0.7);
 }
-.work-section {
-  padding: 160px 20px;
-}
-.work-section h1 {
-  font-size: 64px;
-  line-height: 85px;
-}
-.work-section h2 {
+
+.projects h2 {
   font-family: var(--default-font-family);
   font-size: 24px;
   line-height: 36px;
 }
-.work-section p {
+.projects p {
   font-size: 14px;
   line-height: 21px;
   color: rgba(39, 33, 66, 0.7);
 }
-.work-section-content {
+.projects {
   text-align: center;
 }
 @media (max-width: 900px) {
@@ -132,11 +126,8 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
-  }
-  .work-section h1 {
-    font-size: 44px;
   }
 }
