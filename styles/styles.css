@@ -119,6 +119,10 @@ p {
 .fas {
   font-size: 36px;
 }
+.portfolio-preview {
+  padding: 10px;
+  background: var(--secondary-color);
+}
 nav {
   padding: 20px 0;
 }
