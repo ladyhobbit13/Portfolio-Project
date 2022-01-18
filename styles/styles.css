@@ -61,6 +61,10 @@ p {
   font-family: "Poppins", sans-serif;
   padding: 18px 30px;
 }
+.btn-primary:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
 .btn-learn {
   border-radius: 4px;
   border: 1px solid var(--primary-color);
